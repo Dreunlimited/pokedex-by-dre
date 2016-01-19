@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A615A3811C4B49EC005C5C32 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A615A3801C4B49EC005C5C32 /* Globals.swift */; };
 		A66F95C51C4767B0001ACA96 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66F95C41C4767B0001ACA96 /* PokemonDetailVC.swift */; };
 		A68F2C3E1C41E42E00E361EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68F2C3D1C41E42E00E361EA /* AppDelegate.swift */; };
 		A68F2C401C41E42E00E361EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68F2C3F1C41E42E00E361EA /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		488DE3037D3AD944B72FDD33 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C167ECD2120A0DC9F221D7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A615A3801C4B49EC005C5C32 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		A66F95C41C4767B0001ACA96 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 		A68F2C3A1C41E42E00E361EA /* pokedex-by-dre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pokedex-by-dre.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68F2C3D1C41E42E00E361EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			children = (
 				A6A59B391C433A15004163C8 /* csv.swift */,
 				A6A83A241C45AD3A009B0C8E /* music.mp3 */,
+				A615A3801C4B49EC005C5C32 /* Globals.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				A68F2C3E1C41E42E00E361EA /* AppDelegate.swift in Sources */,
 				A66F95C51C4767B0001ACA96 /* PokemonDetailVC.swift in Sources */,
 				A68F2C531C41E69C00E361EA /* Pokemon.swift in Sources */,
+				A615A3811C4B49EC005C5C32 /* Globals.swift in Sources */,
 				A6A59B3A1C433A15004163C8 /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
