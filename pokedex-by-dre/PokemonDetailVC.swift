@@ -40,7 +40,32 @@ class PokemonDetailVC: UIViewController {
         }
         
     }
+    
+    @IBAction func backButton(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    
     func updateUI(){
+        typeLbl.text = pokemon.type
+        wightLbl.text = pokemon.weight
+        descriptionLbl.text = pokemon.description
+        heightLbl.text = pokemon.height
+        defenseLbl.text = pokemon.defense
+        currentEvoImg.image = UIImage(named: "\(pokemon.pokedexId)")
+        
+        if pokemon.nextEvolutionId == "" {
+            evoLbl.text = "No Evolutions"
+            nextEvoImg.hidden = true
+        }else{
+            nextEvoImg.hidden = false
+            nextEvoImg.image = UIImage(named: pokemon.nextEvolutionId)
+            var str = "Next Evolution: \(pokemon.nextEvolutionId)"
+            
+            if pokemon.nextEvolutionLvl != "" {
+                    str += " -Lvl \(pokemon.nextEvolutionLvl)"
+            }
+        }
         
     }
 

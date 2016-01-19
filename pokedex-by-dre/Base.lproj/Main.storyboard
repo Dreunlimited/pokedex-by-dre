@@ -165,6 +165,9 @@
                                         <rect key="frame" x="14" y="26" width="34" height="30"/>
                                         <animations/>
                                         <state key="normal" title="Back"/>
+                                        <connections>
+                                            <action selector="backButton:" destination="tFA-YS-cGw" eventType="touchUpInside" id="o0p-eO-Fhs"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <animations/>
